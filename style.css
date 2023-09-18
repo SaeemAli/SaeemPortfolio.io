@@ -552,6 +552,23 @@ p
     z-index: 1;
 }
 
+#projects .project-item:nth-child(3)
+{
+    padding: 30px;
+    flex-basis: 50%;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(./images/Accenture/bg.jpg);
+    background-size: cover;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
 #projects .project-item::after
 {
     content: '';
